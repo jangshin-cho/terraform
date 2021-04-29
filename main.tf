@@ -14,6 +14,7 @@ provider "azuread" {
   client_id     = "61906777-6663-4775-9824-e7edaff6cd39"
   client_secret = "RAk2j1kYgV5Gw2uvl24Zr_hwGnyLlBQMIO"
   tenant_id     = "cdbb77be-38b6-40d1-b078-b53f5d96ca61"
+  subscription_id = "52487da4-ef68-4ad9-a9d9-05105aa35625"
 }
 
 
@@ -25,6 +26,7 @@ provider "azurerm" {
   client_id     = "61906777-6663-4775-9824-e7edaff6cd39"
   client_secret = "RAk2j1kYgV5Gw2uvl24Zr_hwGnyLlBQMIO"
   tenant_id     = "cdbb77be-38b6-40d1-b078-b53f5d96ca61"
+  subscription_id = "52487da4-ef68-4ad9-a9d9-05105aa35625"
   features {}
 }
 
