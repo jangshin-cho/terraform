@@ -18,12 +18,15 @@ provider "azuread" {
 
 
 # Configure the Azure provider
-#provider "azurerm" {
+provider "azurerm" {
   # The "feature" block is required for AzureRM provider 2.x.
   # If you are using version 1.x, the "features" block is not allowed.
   #version = "~>3.0"
-#  features {}
-#}
+  client_id     = "61906777-6663-4775-9824-e7edaff6cd39"
+  client_secret = "RAk2j1kYgV5Gw2uvl24Zr_hwGnyLlBQMIO"
+  tenant_id     = "cdbb77be-38b6-40d1-b078-b53f5d96ca61"
+  features {}
+}
 
 
 
