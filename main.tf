@@ -19,7 +19,6 @@ terraform {
 # Configure the Azure provider
 provider "azurerm" {
   
-  version = "~>2.0"
   client_id     = "${var.cloud_id}"
   client_secret = "${var.cloud_secret}"
   tenant_id     = "${var.cloud_tid}"
