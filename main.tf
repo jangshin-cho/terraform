@@ -32,7 +32,7 @@ provider "azurerm" {
 
 
 
-#resource "azurerm_resource_group" "terraform-demo" {
-#  name     = "terraform-demo"
-#  location = "koreacentral"
-#}
+resource "azurerm_resource_group" "terraform-demo" {
+  name     = "terraform-demo"
+  location = "koreacentral"
+}
