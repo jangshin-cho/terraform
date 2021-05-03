@@ -1,3 +1,4 @@
+# .tfvar
 variable "cloud_id" {}
 variable "cloud_secret" {}
 variable "cloud_tid" {}
