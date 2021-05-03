@@ -1,7 +1,7 @@
 #!/bin/bash
 
 RESOURCE_GROUP_NAME=terraform01
-STORAGE_ACCOUNT_NAME=axin00terraform
+STORAGE_ACCOUNT_NAME=jangshinterraform
 CONTAINER_NAME=terraform01
 
 # Create resource group
