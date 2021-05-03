@@ -23,10 +23,10 @@ provider "azurerm" {
   # The "feature" block is required for AzureRM provider 2.x.
   # If you are using version 1.x, the "features" block is not allowed.
   #version = "~>3.0"
-  client_id     = ${cloud_id}
-  client_secret = ${cloud_secret}
-  tenant_id     = ${cloud_tid}
-  subscription_id = ${cloud_sid}
+  client_id     = $cloud_id
+  client_secret = $cloud_secret
+  tenant_id     = $cloud_tid
+  subscription_id = $cloud_sid
   features {}
 }
 
