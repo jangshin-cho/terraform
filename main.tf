@@ -1,7 +1,7 @@
-variable "cloud_id" {}
-variable "cloud_secret" {}
-variable "cloud_tid" {}
-variable "cloud_sid" {}
+#variable "cloud_id" {}
+#variable "cloud_secret" {}
+#variable "cloud_tid" {}
+#variable "cloud_sid" {}
 
 
 # Backend initial creation
