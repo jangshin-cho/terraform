@@ -30,9 +30,9 @@ provider "azurerm" {
 
 
 # Resource group terraform-demo create
-resource "azurerm_resource_group" "terraform-demo" {
+resource "azurerm_resource_group" "terraform-cloud" {
   
-  name     = "terraform-demo"
+  name     = "terraform-cloud"
   location = "koreacentral"
   
 }
