@@ -9,7 +9,7 @@ resource "azurerm_virtual_network" "jangshin_net" {
       environment = "Terraform Test"
     }
     
-    depends_on = [ azurerm_resource_group.terraform-demo ]
+    depends_on = [ azurerm_resource_group.terraform-cloud ]
 }
 
 # Create subnet
